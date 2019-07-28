@@ -1,0 +1,17 @@
+@media (max-width: 640px) { 
+  body { color:white;
+    background-image: url("./istockphoto-621391550-612x612.jpg")
+  }
+ .container {color:white;}
+}
+@media (max-width: 768px) {
+  .me { color:white;
+    text-overflow: "ellipsis";
+ background-image: url("./water-1330252_1920.jpg")
+  }
+}
+@media (max-width: 980px) {
+ body {
+  background-image: url("./water-1330252_1920.jpg")
+ }
+}
