@@ -1,5 +1,9 @@
 body{ 
-  background-image: url("./images/3sTDBS.jpg") 
+  background-image: url("./images/3sTDBS.jpg");
+  width:100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .jumbotron{
   background-image: url("./images/download.jpg")
