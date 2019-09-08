@@ -1,8 +1,16 @@
+body{ 
+  background-image: url("./images/3sTDBS.jpg") 
+}
+.jumbotron{
+  background-image: url("./images/download.jpg")
+}
+
 @media (max-width: 640px) { 
   body { color:white;
     background-image: url("./istockphoto-621391550-612x612.jpg")
   }
- .container {color:white;}
+ .container {color:white;
+}
 }
 @media (max-width: 768px) {
   .me { color:white;
@@ -15,4 +23,5 @@
   background-image: url("./water-1330252_1920.jpg")
  }
 }
+
 
