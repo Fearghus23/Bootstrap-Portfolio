@@ -2,7 +2,6 @@ body{
   background-image: url("./images/3sTDBS.jpg");
   width:100%;
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
 }
 .jumbotron{
@@ -19,13 +18,23 @@ body{
 @media (max-width: 768px) {
   .me { color:white;
     text-overflow: "ellipsis";
- background-image: url("./water-1330252_1920.jpg")
+ background-image: url("./water-1330252_1920.jpg");
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
   }
+   .footer{
+    background-image: url("./water-1330252_1920.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
 }
 @media (max-width: 980px) {
  body {
   background-image: url("./water-1330252_1920.jpg")
  }
 }
+
 
 
