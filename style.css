@@ -7,7 +7,10 @@ body{
 .jumbotron{
   background-image: url("./images/download.jpg")
 }
-
+.anchor-font {
+  color:black;
+  font-size: 30;
+}
 @media (max-width: 640px) { 
   body { color:white;
     background-image: url("./images/istockphoto-621391550-612x612.jpg")
@@ -35,6 +38,8 @@ body{
   background-image: url("./images/water-1330252_1920.jpg")
  }
 }
+
+
 
 
 
