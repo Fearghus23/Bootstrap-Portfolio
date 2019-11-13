@@ -1,10 +1,22 @@
+html{
+  height:100%;
+  font-style: oblique;
+
+}
+
 .me{
 letter-spacing: 4px;
 color:whitesmoke;
 font-size: large;
 font-style: oblique;
 text-shadow: 2px 2px black;
-
+}
+.me img{
+  border:solid 1px black;
+border-radius: 7px;
+background:rgba(128, 128, 128, 0.322);
+padding:20px;
+margin-top: 25%;
 }
 body{ 
   background-image: url("./images/water-1330252_1920.jpg");
@@ -12,7 +24,9 @@ body{
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color:whitesmoke
+  color:whitesmoke;
+  font-style: oblique;
+
 }
 .jumbotron{
   font-style: italic;
@@ -47,7 +61,14 @@ body{
  }
 }
 
+.jank{
+text-align: center;
+}
 
-
-
+.box{
+  border:solid 1px salmon;
+border-radius: 7px;
+background:rgba(255, 0, 128, 0.164);
+padding:20px;
+margin-top: 25%;}
 
