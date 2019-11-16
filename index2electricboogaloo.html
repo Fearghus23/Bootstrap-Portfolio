@@ -1,160 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <link href="style.css" rel="stylesheet"/>
-  <link href="css/style.css" rel="stylesheet"/>
-  <title>Document</title>
+<TITLE>cubeTransition.js</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<link href="css/style.css" rel="stylesheet" />
+<style>
+
+.page4 h2{
+margin:auto !important;
+position:absolute !important;
+top:0 !important;left:0;bottom:0;right:0;
+height:100px;
+transform:none;
+transition:all 3s;
+}
+.ani{
+transform:scale(3) rotate(360deg) !important;
+}</style>
+<script src='js/jquery.min.js'></script>
 </head>
-
 <body>
-  <div id="cubeTransition">
-    <ul id="bullets">
-      <div style="position: fixed;right: 0;top: 0;">
-      </div>
-      <div class="page1">
-        <clear class="d-flex flex-column">
-          <nav class="navbar navbar-light bg-info">
-            <div class="col-sm-6 text-center">
-              <a class="navbar-brand" href="#">Fearghus Tyler</a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-              aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-            </div>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <div class="col-sm-7 text-center">
-                <ul class="navbar-nav ml-auto">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="./contact.html">Contact <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./portfolio.html">Portfolio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./index.html">About Me</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" target="_new" href="./resume/RESUMEfearghus.pdf">Resume</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-          <div class="container bg-secondary">
-            <div class="row">
-              <div class="col-6">
-                <div>
-                  <a class="anchor-font" href="https://github.com/Fearghus23/unit-4-game">Star wars mini-game</a>
-                  <a href="https://fearghus23.github.io/unit-4-game/">
-                    <img src="./images/star-wars-millennium-falcon.jpg" class="img-fluid" width=600 height=400
-                    alt="Responsive image">
-                  </div>
-                </a>
-              </div>
-              <div class="col-6">
-                <a class="anchor-font" href="https://github.com/Fearghus23/Travel-Assistant">Travel-Assistant</a>
-                <a href="https://fearghus23.github.io/Travel-Assistant/">
-                  <img src="./images/headerOP3.jpg" class="img-fluid" width=600 height=400 alt="Responsive image">
-                </a>
-              </div>
-              <div class="col-6">
-                <a class="anchor-font" href="https://fearghus23.github/Fearghus23/Word-Guess-Game">Hang-Man</a>
-                <a href="https://fearghus23.github.io/Word-Guess-Game/">
-                  <img src="./images/8964e02af0957329c5953d951e02f18c.jpg" class="img-fluid" width=600 height=400
-                  alt="Responsive image">
-                </a>
-              </div>
-              <div class="col-6">
-                <a class="anchor-font" href="https://project-paraquat2.herokuapp.com">Code Invaders!</a>
-                <a href="https://project-paraquat2.herokuapp.com">
-                  <img src="images/Code-Invaders.jpg" class="img-fluid" width=600 height=400 alt="Responsive image">
-                </a>
-              </div>
-            </div>
-          </div>
-        </clear>
-      </div>
-      <div class="page2">
-        <div class="me">
-          <div class="container bg-gradient-light">
-            <div class="row">
-              <div class="col">
-                <hr>
-                <p> I was born in 1993, grew up a few years in NYC before making the
-                  journey here to the forested state of Oregon. Raised in the town of Eugene I was part of the last
-                  generation of kids growing up without cell phones and touch screens. Spending a good amount of time
-                  outdoors
-                  I am an avid caver and
-                  hiker with a touch of survivalist. It's a lot of fun to try and navigate
-                  with
-                  just a compass/ vague map of the topography. Aside from my interests in the 'natural' world, interests
-                  in
-                  technology for me are as natural as anything. I didn't come from a place with much, so my first laptop
-                  back
-                  in 2009, give or take a year or two, was truly a captivating object (though
-                  it was by no means a very fast device). as the internet grew I was always interested in the background
-                  of
-                  how
-                  the web works and how it can be used for a freedom that only takes place in emerging sectors. This has
-                  lead
-                  me to accomplish a full stack educational course by the University of Oregon. </p>
-                </div>
-                <div class="col">
-                <h1>Developer</h1>
-                <hr>
-                <ul>
-                  <li>Archery is a pastime of mine</li>
-                  <li>My fascination with the ocean is notable</li>
-                  <li>I love to geocache</li>
-                </ul>
-                <div class="container">
-                  <img src="./images/image000000.jpg" class="img-rounded" alt="me" width="304" height="400"
-                  class="img-fluid" alt="Responsive image">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="page3">
-        <div class="container jank">
-          <form class="box" method="post" action="mailto:Fearghus333@gmail.com">
-            <div class="row">
-              <div class="col">
-                <h3>Name</h3>
-                <input type="text" name="Name">
-                <h3>Email</h3>
-                <input type="text" name="Email">
-                <h3>Message</h3>
-                <input type="text" name="Email" name="Name" name="Message">
-                <input type="submit" value="Submit">
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-    </ul>
-  </div>
-  <footer id="sticky-footer" class="py-4 bg-info text-white-50 fixed-bottom">
-    <div class="container text-center">
-      <small>Copyright &copy; Portfolio</small>
-    </div>
-  </footer>
-  <script src="js/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-  crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-  crossorigin="anonymous"></script>
-  <script src='./js/wheel-indicator.js'></script>
-  <script src="./js/jquery.touchSwipe.js"></script>
-  <script src="./js/cubeTransition.js"></script>
-</body>
+<div id="cubeTransition">
+<div class="page1"><h2>cubeTransition.js</h2></div>
+<div class="page2"><h2 style='display:none'>Elegant,</h2></div>
+<div class="page3"><h2 style='position:absolute;left:0px;top:-150px'>Exciting!</h2></div>
+<div class="page4"><h2>Simple.</h2></div>
+</div>
 
-</html>
+<ul id="bullets"></ul>
+
+<script>
+function animationIn(i){
+console.log(i,'i\'m in')
+switch(i) {
+    case 1:
+        $('.page2 h2').fadeIn();
+        break;
+    case 2:
+        $('.page3 h2').animate({top:'40%',left:'30%'},1000);
+        break;
+	case 3:
+		setTimeout(function(){
+		 $('.page4 h2').addClass('ani')
+		},0)
+        break;
+    default:
+        ;
+}
+}
+
+function animationOut(i){
+console.log(i,'i\'m out')
+switch(i) {
+    case 1:
+        $('.page2 h2').fadeOut();
+        break;
+    case 2:
+        $('.page3 h2').animate({top:0,left:0},1000);
+        break;
+	case 3:
+        $('.page4 h2').removeClass('ani')
+        break;
+    default:
+        ;
+}
+}
+</script>
+<script src='js/wheel-indicator.js'></script>
+<script src="js/jquery.touchSwipe.js"></script>
+<script src="js/cubeTransition.js"></script>
+</body></html>
